@@ -1,17 +1,17 @@
 /**
- * MyQueue class.
- * Implements Stack using Deque.
+ * MyStack class.
+ * Implements Stack using MyQueue.
  */
 public class MyStack {
 
     private MyQueue list;
 
-    /** Constructor for a MyStack object, using default Deque */
+    /** Constructor for a MyStack object, using default MyQueue */
     public MyStack() {
 
     }
 
-    /** Constructor for a MyStack object, using Deque */
+    /** Constructor for a MyStack object, using MyQueue */
     public MyStack(int maxCap) {
 
     }
