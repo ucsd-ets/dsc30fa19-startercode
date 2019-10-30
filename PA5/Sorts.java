@@ -10,6 +10,7 @@ import java.util.ArrayList;
 */
 public class Sorts<T extends Comparable<? super T>> {
 
+    private static final int HALF_LIST = 2;
     /*
      * This method performs insertion sort on the input arraylist
      * 
@@ -33,7 +34,7 @@ public class Sorts<T extends Comparable<? super T>> {
 
         if (start < end)
         {
-            int mid = start + (end - start) / 2;
+            int mid = start + (end - start) / HALF_LIST;
             MergeSort(list, start, mid);
             MergeSort(list , mid + 1, end);
 
