@@ -126,7 +126,7 @@ public class HCTree {
 
         /**
          * Check if the HCNode is leaf
-         * @return if it's leaf, return 1. Otherwise, return 0.
+         * @return if it's leaf, return true. Otherwise, return false.
          */
         boolean isLeaf() {
 
