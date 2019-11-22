@@ -33,7 +33,7 @@ public class MyCompressor {
      * Helper Method
      * Finds count of each ascii character and builds Huffman tree
      * @param corpusLocation directory to corpus text file
-     * @return root of Huffman Tree
+     * @return reference to the built HCTree
      */
     private HCTree buildHuffmanTree(String corpusLocation) throws IOException{
 
