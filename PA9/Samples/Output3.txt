@@ -1,0 +1,6 @@
+beicycle: bicycle
+pwillow: willow, pillow
+masterchef: master chef
+beding: being, beading, bedding, bending
+sprice: splice, spruce, sprite, price, spice
+treestop: treetop, tree stop, trees top
